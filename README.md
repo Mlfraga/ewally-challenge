@@ -14,3 +14,5 @@
 ##### Problemas encontrados:
 
 - Dificuldade para calcular o dígito verificador de boletos de convênio. Foi usado a base de cálculo da documentação mas o resultado desse cáculo nunca é igual ao dígito verificador. Obs: Erro acontece apenas em boletos de convênio que contém 48 dígitos, o outro tipo de boleto funciona perfeitamente.
+- Não consegui também capturar a data de vencimento de boletos de convênio, mas boletos de títulos consegui obter todas as informações necessárias
+
