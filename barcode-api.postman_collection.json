@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "f1690a10-6b41-4fd9-8c03-c213187a128a",
+		"name": "barcode-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "barcode info",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/boleto/00190000090294129800876556614170188280000025725",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"boleto",
+						"00190000090294129800876556614170188280000025725"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "url",
+			"value": "http://localhost:8080"
+		}
+	]
+}
